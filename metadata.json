@@ -1,0 +1,6 @@
+{
+  "name": "SmartCare",
+  "description": "Healthcare appointment and real-time queue management system. Book appointments, track line statuses, and query the assistant of hospital departments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

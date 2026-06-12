@@ -1,0 +1,239 @@
+{
+  "patients": [
+    {
+      "id": "pat_1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "555-0199",
+      "age": 34,
+      "gender": "Male",
+      "address": "742 Evergreen Terrace, Springfield",
+      "password": "password123",
+      "role": "PATIENT"
+    },
+    {
+      "id": "pat_2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "555-0144",
+      "age": 29,
+      "gender": "Female",
+      "address": "123 Maple Street, Riverdale",
+      "password": "password123",
+      "role": "PATIENT"
+    },
+    {
+      "id": "pat_poojita",
+      "name": "Poojita Lakkakula",
+      "email": "poojitalakkakula09@gmail.com",
+      "phone": "91-63059-12345",
+      "age": 21,
+      "gender": "Female",
+      "address": "Anurag University Campus, Hyderabad",
+      "password": "password123",
+      "role": "PATIENT"
+    },
+    {
+      "id": "pat_1781096537965",
+      "name": "Ashritha",
+      "email": "23eg110d40@anurag.edu.in",
+      "phone": "6305910458",
+      "age": 23,
+      "gender": "Female",
+      "address": "hyderabad",
+      "password": "1234",
+      "role": "PATIENT"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc_1",
+      "name": "Dr. Arvind Sharma",
+      "email": "arvind@smartcare.org",
+      "password": "password123",
+      "specialization": "Cardiology",
+      "experience": 15,
+      "availability": "09:00 AM - 10:00 PM",
+      "imageUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=150&h=150&fit=crop&crop=face",
+      "role": "DOCTOR"
+    },
+    {
+      "id": "doc_2",
+      "name": "Dr. Sarah Jenkins",
+      "email": "sarah@smartcare.org",
+      "password": "password123",
+      "specialization": "Neurology",
+      "experience": 12,
+      "availability": "10:00 AM - 10:00 PM",
+      "imageUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face",
+      "role": "DOCTOR"
+    },
+    {
+      "id": "doc_3",
+      "name": "Dr. Rajesh Patel",
+      "email": "rajesh@smartcare.org",
+      "password": "password123",
+      "specialization": "Orthopedics",
+      "experience": 10,
+      "availability": "02:00 PM - 10:00 PM",
+      "imageUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=150&h=150&fit=crop&crop=face",
+      "role": "DOCTOR"
+    },
+    {
+      "id": "doc_4",
+      "name": "Dr. Priya Nair",
+      "email": "priya@smartcare.org",
+      "password": "password123",
+      "specialization": "Pediatrics",
+      "experience": 8,
+      "availability": "09:00 AM - 10:00 PM",
+      "imageUrl": "/src/assets/images/priya_nair_1781097436515.png",
+      "role": "DOCTOR"
+    },
+    {
+      "id": "doc_5",
+      "name": "Dr. Chloe DuPont",
+      "email": "chloe@smartcare.org",
+      "password": "password123",
+      "specialization": "Dermatology",
+      "experience": 7,
+      "availability": "11:00 AM - 10:00 PM",
+      "imageUrl": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=150&h=150&fit=crop&crop=face",
+      "role": "DOCTOR"
+    },
+    {
+      "id": "doc_6",
+      "name": "Dr. Marcus Vance",
+      "email": "marcus@smartcare.org",
+      "password": "password123",
+      "specialization": "General Medicine",
+      "experience": 14,
+      "availability": "08:00 AM - 10:00 PM",
+      "imageUrl": "/src/assets/images/marcus_vance_headshot_1781097572071.png",
+      "role": "DOCTOR"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "appt_1",
+      "patientId": "pat_1",
+      "doctorId": "doc_1",
+      "date": "2026-06-10",
+      "time": "09:15 AM",
+      "reason": "Routine cardiovascular checkup, periodic heart palpitations.",
+      "status": "COMPLETED",
+      "queueNumber": 1,
+      "tokenNumber": 1,
+      "createdAt": "2026-06-10T10:59:15.898Z"
+    },
+    {
+      "id": "appt_2",
+      "patientId": "pat_2",
+      "doctorId": "doc_1",
+      "date": "2026-06-10",
+      "time": "09:30 AM",
+      "reason": "Follow-up on high blood pressure prescription.",
+      "status": "COMPLETED",
+      "queueNumber": 2,
+      "tokenNumber": 2,
+      "createdAt": "2026-06-10T11:59:15.898Z"
+    },
+    {
+      "id": "appt_3",
+      "patientId": "pat_1",
+      "doctorId": "doc_6",
+      "date": "2026-06-10",
+      "time": "08:15 AM",
+      "reason": "Mild allergy symptoms and sore throat.",
+      "status": "COMPLETED",
+      "queueNumber": 1,
+      "tokenNumber": 1,
+      "createdAt": 1781009955898
+    },
+    {
+      "id": "appt_1781096566823",
+      "patientId": "pat_1781096537965",
+      "doctorId": "doc_1",
+      "date": "2026-06-10",
+      "time": "10:00 AM",
+      "reason": "heart issue",
+      "status": "APPROVED",
+      "queueNumber": 3,
+      "tokenNumber": 3,
+      "createdAt": "2026-06-10T13:02:46.823Z"
+    }
+  ],
+  "doctorQueueProgress": {
+    "doc_1": 2,
+    "doc_2": 0,
+    "doc_3": 0,
+    "doc_4": 0,
+    "doc_5": 0,
+    "doc_6": 1
+  },
+  "emailLogs": [
+    {
+      "id": "email_1781096707256",
+      "recipientEmail": "jane@example.com",
+      "recipientName": "Jane Smith",
+      "subject": "SmartCare Alert: You are UP NEXT with Dr. Arvind Sharma! 🩺",
+      "body": "Dear Jane Smith,\n\nDr. Dr. Arvind Sharma is now ready to receive you! You are UP NEXT for checkup.\n\nHere is your Live Entry Queue Pass:\n\n┌───────────────────────────────────────────────────┐\n             SMARTCARE MEDICAL CLINIC            \n      OFFICIAL QUEUE APPOINTMENT ACCESS PASS     \n├───────────────────────────────────────────────────┤\n  PATIENT: Jane Smith                          \n  DOCTOR: Dr. Arvind Sharma (Cardiology)       \n  DATE: 2026-06-10                             \n  TIME: 09:30 AM                               \n├───────────────────────────────────────────────────┤\n  ┌───────────────────────────────────────────────┐  \n  │             ASSIGNED QUEUE TOKEN              │  \n  │                                               │  \n  │                  # 02                         │  \n  │                                               │  \n  │          STATUS: URGENT UP NEXT               │  \n  └───────────────────────────────────────────────┘  \n├───────────────────────────────────────────────────┤\n    PLEASE PRESENT THIS CARD AT THE CLINIC DESK  \n    MONITOR YOUR LIVE WAIT TIMES ONLINE IN APP   \n└───────────────────────────────────────────────────┘\n\nPlease proceed directly to the doctor's cabin now.\n\nBest regards,\nSmartCare Nurse Desk & Queue Coordinator",
+      "type": "QUEUE_ALERT",
+      "sentAt": "2026-06-10T13:05:07.256Z"
+    },
+    {
+      "id": "email_1781096693928",
+      "recipientEmail": "23eg110d40@anurag.edu.in",
+      "recipientName": "Ashritha",
+      "subject": "SmartCare Appointment Update: APPROVED!",
+      "body": "Dear Ashritha,\n\nWe are pleased to inform you that your appointment is APPROVED!\n\nHere is your Official Queue Pass:\n\n┌───────────────────────────────────────────────────┐\n             SMARTCARE MEDICAL CLINIC            \n      OFFICIAL QUEUE APPOINTMENT ACCESS PASS     \n├───────────────────────────────────────────────────┤\n  PATIENT: Ashritha                            \n  DOCTOR: Dr. Arvind Sharma (Cardiology)       \n  DATE: 2026-06-10                             \n  TIME: 10:00 AM                               \n├───────────────────────────────────────────────────┤\n  ┌───────────────────────────────────────────────┐  \n  │             ASSIGNED QUEUE TOKEN              │  \n  │                                               │  \n  │                  # 03                         │  \n  │                                               │  \n  │          STATUS: APPROVED                     │  \n  └───────────────────────────────────────────────┘  \n├───────────────────────────────────────────────────┤\n    PLEASE PRESENT THIS CARD AT THE CLINIC DESK  \n    MONITOR YOUR LIVE WAIT TIMES ONLINE IN APP   \n└───────────────────────────────────────────────────┘\n\nPlan to arrive 15 minutes before your time. You can monitor the real-time queue position on your SmartCare portal.\n\nBest wishes,\nSmartCare Clinic Management",
+      "type": "APPROVAL",
+      "sentAt": "2026-06-10T13:04:53.928Z"
+    },
+    {
+      "id": "email_1781096566823",
+      "recipientEmail": "23eg110d40@anurag.edu.in",
+      "recipientName": "Ashritha",
+      "subject": "SmartCare Request: Appointment Scheduled!",
+      "body": "Dear Ashritha,\n\nYour appointment request has been submitted successfully.\n\nHere is your Digital Queue Pass:\n\n┌───────────────────────────────────────────────────┐\n             SMARTCARE MEDICAL CLINIC            \n      OFFICIAL QUEUE APPOINTMENT ACCESS PASS     \n├───────────────────────────────────────────────────┤\n  PATIENT: Ashritha                            \n  DOCTOR: Dr. Arvind Sharma (Cardiology)       \n  DATE: 2026-06-10                             \n  TIME: 10:00 AM                               \n├───────────────────────────────────────────────────┤\n  ┌───────────────────────────────────────────────┐  \n  │             ASSIGNED QUEUE TOKEN              │  \n  │                                               │  \n  │                  # 03                         │  \n  │                                               │  \n  │          STATUS: PENDING                      │  \n  └───────────────────────────────────────────────┘  \n├───────────────────────────────────────────────────┤\n    PLEASE PRESENT THIS CARD AT THE CLINIC DESK  \n    MONITOR YOUR LIVE WAIT TIMES ONLINE IN APP   \n└───────────────────────────────────────────────────┘\n\nWe will notify you once the clinic reviews and approves the Slot.\n\nWarm regards,\nSmartCare Clinic Operations Support",
+      "type": "BOOKING",
+      "sentAt": "2026-06-10T13:02:46.823Z"
+    },
+    {
+      "id": "email_1781096537966",
+      "recipientEmail": "23eg110d40@anurag.edu.in",
+      "recipientName": "Ashritha",
+      "subject": "Welcome to SmartCare!",
+      "body": "Dear Ashritha,\n\nYour registration with SmartCare was successful!\n\nYour credentials:\nUsername (Email): 23eg110d40@anurag.edu.in\nRole: Patient\n\nYou can now log in, search for leading doctors, book instant slots, and keep track of live waiting positions.\n\nWarm regards,\nThe SmartCare Healthcare Team",
+      "type": "REGISTRATION",
+      "sentAt": "2026-06-10T13:02:17.966Z"
+    },
+    {
+      "id": "email_poojita_welcome",
+      "recipientEmail": "poojitalakkakula09@gmail.com",
+      "recipientName": "Poojita Lakkakula",
+      "subject": "Welcome to SmartCare!",
+      "body": "Dear Poojita Lakkakula,\n\nWelcome to SmartCare—Smarter Healthcare, Shorter Wait Times.\n\nYour account has been pre-registered successfully!\n\nYour credentials:\n- Username (Email): poojitalakkakula09@gmail.com\n- Password: password123\n- Role: Patient\n\nYou can now log in, search for leading doctors (Cardiology, Neurology, Orthopedics, Pediatrics, Dermatology, General Medicine), book real-time appointments, and monitor live queue wait lines seamlessly!\n\nWarm regards,\nThe SmartCare Healthcare Team",
+      "type": "REGISTRATION",
+      "sentAt": "2026-06-10T12:59:15.898Z"
+    },
+    {
+      "id": "email_1",
+      "recipientEmail": "john@example.com",
+      "recipientName": "John Doe",
+      "subject": "Welcome to SmartCare!",
+      "body": "Dear John Doe,\n\nWelcome to SmartCare—Smarter Healthcare, Shorter Wait Times. Your account has been created successfully. You can now log in, schedule appointments, and view real-time queue states!\n\nBest wishes,\nThe SmartCare Team",
+      "type": "REGISTRATION",
+      "sentAt": "2026-06-10T07:59:15.898Z"
+    },
+    {
+      "id": "email_2",
+      "recipientEmail": "john@example.com",
+      "recipientName": "John Doe",
+      "subject": "Appointment Booking Request Confirmed",
+      "body": "Dear John Doe,\n\nYour appointment request for Dr. Arvind Sharma (Cardiology) has been received and confirmed.\nYour assigned Token Number is 1.\nDate: Today\nTime: 09:15 AM\n\nYou can track your live queue position and estimated wait times on your dashboard.\n\nBest regards,\nSmartCare Clinic",
+      "type": "BOOKING",
+      "sentAt": "2026-06-10T10:59:15.898Z"
+    }
+  ]
+}
