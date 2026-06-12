@@ -1969,7 +1969,7 @@ async function startServer() {
     app.listen(PORT, "0.0.0.0", () => {
       console.log(`=======================================================`);
       console.log(` SMARTCARE Full-Stack Node Server is now Active!      `);
-      console.log(` Port URL: http://localhost:${PORT}                      `);
+      console.log(` Port URL: http://const API_BASE = "";:${PORT}                      `);
       console.log(` Production Environment: ${process.env.NODE_ENV === "production" ? "YES" : "NO"}   `);
       console.log(`=======================================================`);
 
